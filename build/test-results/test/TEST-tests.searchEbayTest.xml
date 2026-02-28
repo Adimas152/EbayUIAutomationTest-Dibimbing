@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.searchEbayTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-02-28T05:23:52.077Z" hostname="Adimas.local" time="21.804">
+  <properties/>
+  <testcase name="TC_01_applyMultipleFiltersFromCategoryh" classname="tests.searchEbayTest" time="14.506"/>
+  <testcase name="TC_02_SearchProductWithCategoryFilter[0](MacBook)" classname="tests.searchEbayTest" time="3.775"/>
+  <system-out><![CDATA[12:23:47.942 [Test worker] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+12:23:47.953 [Test worker] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/admin/.cache/selenium/chromedriver/mac-arm64/145.0.7632.117/chromedriver
+12:23:52.093 [Test worker] INFO  pages.DashboardPage - Open category dropdown menu
+12:23:52.184 [Test worker] INFO  pages.DashboardPage - Selecting Cell Phones & Accessories category
+12:23:52.899 [Test worker] INFO  pages.DashboardPage - Click menu smartphone
+12:24:06.503 [Test worker] INFO  pages.DashboardPage - Condition: New - Filter Applied
+12:24:06.538 [Test worker] INFO  pages.DashboardPage - Price: Under IDR167,590 - Filter Applied
+12:24:06.573 [Test worker] INFO  pages.DashboardPage - Item location: Worldwide - Filter Applied
+12:24:07.057 [Test worker] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 145.0.7632.117 (resolved driver for Chrome 145)
+12:24:07.060 [Test worker] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/admin/.cache/selenium/chromedriver/mac-arm64/145.0.7632.117/chromedriver
+12:24:10.107 [Test worker] INFO  pages.DashboardPage - Searching product with keyword: MacBook
+12:24:10.389 [Test worker] INFO  pages.DashboardPage - Select Category Computers/Tablets & Networking
+12:24:10.474 [Test worker] INFO  pages.DashboardPage - Click Serach Button
+12:24:13.881 [Test worker] INFO  pages.SearchResultPage - First product title: Apple MacBook Air MJVM2LL/A 2015 Laptop Core i5-5250U 1.6GHz 8GB RAM 128GB, Good
+]]></system-out>
+  <system-err><![CDATA[Feb 28, 2026 12:23:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 145
+Feb 28, 2026 12:23:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 145.0.7632.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 28, 2026 12:24:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 145
+Feb 28, 2026 12:24:07 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 145.0.7632.117. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.35.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
